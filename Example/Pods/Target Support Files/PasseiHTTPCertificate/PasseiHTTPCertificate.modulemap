@@ -1,0 +1,6 @@
+framework module PasseiHTTPCertificate {
+  umbrella header "PasseiHTTPCertificate-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - PasseiHTTPCertificate (0.0.1)
+
+DEPENDENCIES:
+  - PasseiHTTPCertificate (from `../`)
+
+EXTERNAL SOURCES:
+  PasseiHTTPCertificate:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PasseiHTTPCertificate: 9d3a930a6cf2b71b77d468fa66b3b14633fbc650
+
+PODFILE CHECKSUM: e77a8a126644411d11007f77bf4f25ad625acd66
+
+COCOAPODS: 1.15.2

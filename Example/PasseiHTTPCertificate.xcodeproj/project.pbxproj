@@ -15,6 +15,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		A740F98C2C45D3D792F10D42 /* Pods_PasseiHTTPCertificate_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51BF299E28B6BB41D9A12F56 /* Pods_PasseiHTTPCertificate_Tests.framework */; };
+		C7EBC9582CC0C4F3008B7779 /* certificate.p12 in Resources */ = {isa = PBXBuildFile; fileRef = C7EBC9572CC0C4F3008B7779 /* certificate.p12 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,9 +30,9 @@
 
 /* Begin PBXFileReference section */
 		088E423ECE88325F9136522B /* Pods-PasseiHTTPCertificate_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasseiHTTPCertificate_Example.release.xcconfig"; path = "Target Support Files/Pods-PasseiHTTPCertificate_Example/Pods-PasseiHTTPCertificate_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1121EF64419C7D468FD13A2E /* PasseiHTTPCertificate.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PasseiHTTPCertificate.podspec; path = ../PasseiHTTPCertificate.podspec; sourceTree = "<group>"; };
+		1121EF64419C7D468FD13A2E /* PasseiHTTPCertificate.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PasseiHTTPCertificate.podspec; path = ../PasseiHTTPCertificate.podspec; sourceTree = "<group>"; };
 		1636DAEEAA7E4AACB4839DB0 /* Pods-PasseiHTTPCertificate_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasseiHTTPCertificate_Example.debug.xcconfig"; path = "Target Support Files/Pods-PasseiHTTPCertificate_Example/Pods-PasseiHTTPCertificate_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		34F3B22E18D4432BE3F7B218 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		34F3B22E18D4432BE3F7B218 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		51BF299E28B6BB41D9A12F56 /* Pods_PasseiHTTPCertificate_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PasseiHTTPCertificate_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* PasseiHTTPCertificate_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasseiHTTPCertificate_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,7 +47,8 @@
 		683C22C2282B070F57C298EF /* Pods-PasseiHTTPCertificate_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasseiHTTPCertificate_Tests.debug.xcconfig"; path = "Target Support Files/Pods-PasseiHTTPCertificate_Tests/Pods-PasseiHTTPCertificate_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		88C234370FD25B32FBA6FE2A /* Pods_PasseiHTTPCertificate_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PasseiHTTPCertificate_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C06226BF6E2ECA95A98E5986 /* Pods-PasseiHTTPCertificate_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasseiHTTPCertificate_Tests.release.xcconfig"; path = "Target Support Files/Pods-PasseiHTTPCertificate_Tests/Pods-PasseiHTTPCertificate_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E78C1E1804EDBD9A8C311FF6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C7EBC9572CC0C4F3008B7779 /* certificate.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; name = certificate.p12; path = ../../certificate.p12; sourceTree = "<group>"; };
+		E78C1E1804EDBD9A8C311FF6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		607FACD21AFB9204008FA782 /* Example for PasseiHTTPCertificate */ = {
 			isa = PBXGroup;
 			children = (
+				C7EBC9572CC0C4F3008B7779 /* certificate.p12 */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -156,7 +159,6 @@
 				683C22C2282B070F57C298EF /* Pods-PasseiHTTPCertificate_Tests.debug.xcconfig */,
 				C06226BF6E2ECA95A98E5986 /* Pods-PasseiHTTPCertificate_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -190,7 +192,6 @@
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				5F826436C16BF4E20F62FD79 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -214,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = D38F29JV6F;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = D38F29JV6F;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -228,6 +231,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -250,6 +254,7 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				C7EBC9582CC0C4F3008B7779 /* certificate.p12 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,24 +284,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PasseiHTTPCertificate_Example/Pods-PasseiHTTPCertificate_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5F826436C16BF4E20F62FD79 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PasseiHTTPCertificate_Tests/Pods-PasseiHTTPCertificate_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PasseiHTTPCertificate_Tests/Pods-PasseiHTTPCertificate_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8F4DAEAF968410B10581B815 /* [CP] Check Pods Manifest.lock */ = {
@@ -497,13 +484,19 @@
 			baseConfigurationReference = 1636DAEEAA7E4AACB4839DB0 /* Pods-PasseiHTTPCertificate_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D38F29JV6F;
 				INFOPLIST_FILE = PasseiHTTPCertificate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -512,13 +505,19 @@
 			baseConfigurationReference = 088E423ECE88325F9136522B /* Pods-PasseiHTTPCertificate_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D38F29JV6F;
 				INFOPLIST_FILE = PasseiHTTPCertificate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -526,6 +525,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 683C22C2282B070F57C298EF /* Pods-PasseiHTTPCertificate_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = D38F29JV6F;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -535,6 +535,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -548,11 +549,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C06226BF6E2ECA95A98E5986 /* Pods-PasseiHTTPCertificate_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = D38F29JV6F;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
