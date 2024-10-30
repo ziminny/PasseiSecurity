@@ -1,5 +1,5 @@
 //
-//  HCKeychainCertificateHandler.swift
+//  PSKeychainCertificateHandler.swift
 //  PasseiHTTPCertificate
 //
 //  Created by vagner reis on 17/10/24.
@@ -9,34 +9,34 @@ import Foundation
 import Security
 import CoreFoundation
 
-public struct HCKeychainCertificateHandler: Sendable {
+public struct PSKeychainCertificateHandler: Sendable {
     
     public init() { }
     
     private func importP12Certificate() throws -> SecIdentity {
         
-        guard let p12CertificateURL = HCKeychainProperties.shared.p12CertificateURL else {
-            throw HCError.urlError
+        guard let p12CertificateURL = PSKeychainProperties.shared.p12CertificateURL else {
+            throw PSError.urlError
         }
         
        guard let p12Data = try? Data(contentsOf: p12CertificateURL) else {
-           throw HCError.dataError
+           throw PSError.dataError
          }
         
         let options: [String: Any] = [
-            kSecImportExportPassphrase as String: HCKeychainProperties.shared.p12Password
+            kSecImportExportPassphrase as String: PSKeychainProperties.shared.p12Password
         ]
         
         var items: CFArray?
         let securityError = SecPKCS12Import(p12Data as NSData, options as NSDictionary, &items)
         
         guard securityError == errSecSuccess else {
-            throw HCError.importError
+            throw PSError.importError
         }
         
         // Recuperar o primeiro item da lista (que deve ser o certificado e chave privada)
         guard let item = (items as? [[String: Any]])?.first else {
-            throw HCError.itemNotFound
+            throw PSError.itemNotFound
         }
         
         // Recuperar a identidade (contendo o certificado e a chave privada)
@@ -57,7 +57,7 @@ public struct HCKeychainCertificateHandler: Sendable {
         
         let query: [String: Any] = [
             kSecClass as String: kSecClassIdentity,
-            kSecAttrLabel as String: HCKeychainProperties.shared.keychainLabel,
+            kSecAttrLabel as String: PSKeychainProperties.shared.keychainLabel,
             kSecValueRef as String: identity
         ]
         
@@ -71,7 +71,7 @@ public struct HCKeychainCertificateHandler: Sendable {
             return true
         }
         
-        throw HCError.errorIdentitySave(status)
+        throw PSError.errorIdentitySave(status)
         
     }
     
@@ -84,7 +84,7 @@ public struct HCKeychainCertificateHandler: Sendable {
     public func removeIdentityFromKeychain() -> Bool {
         let deleteQuery: [String: Any] = [
             kSecClass as String: kSecClassIdentity,  // Classe de identidade
-            kSecAttrLabel as String: HCKeychainProperties.shared.keychainLabel   // Rótulo usado ao salvar o item
+            kSecAttrLabel as String: PSKeychainProperties.shared.keychainLabel   // Rótulo usado ao salvar o item
         ]
         
         let status = SecItemDelete(deleteQuery as CFDictionary)
@@ -107,7 +107,7 @@ public struct HCKeychainCertificateHandler: Sendable {
         
         let query: [String: Any] = [
             kSecClass as String: kSecClassIdentity,
-            kSecAttrLabel as String: HCKeychainProperties.shared.keychainLabel,
+            kSecAttrLabel as String: PSKeychainProperties.shared.keychainLabel,
             kSecReturnRef as String: true
         ]
         
@@ -116,14 +116,14 @@ public struct HCKeychainCertificateHandler: Sendable {
             return identity
         }
         print("STATUS \(status)")
-        throw HCError.errorLoadIdentity(status)
+        throw PSError.errorLoadIdentity(status)
         
     }
 
     public func identityExistsInKeychain() -> Bool {
         let query: [String: Any] = [
             kSecClass as String: kSecClassIdentity,  // Tipo de item: identidade
-            kSecAttrLabel as String: HCKeychainProperties.shared.keychainLabel,          // Rótulo usado ao salvar a identidade
+            kSecAttrLabel as String: PSKeychainProperties.shared.keychainLabel,          // Rótulo usado ao salvar a identidade
             kSecReturnRef as String: true,           // Retornar uma referência ao item (não os dados)
             kSecMatchLimit as String: kSecMatchLimitOne  // Limitar a busca a um único item
         ]

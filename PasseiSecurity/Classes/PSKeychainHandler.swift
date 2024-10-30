@@ -1,5 +1,5 @@
 //
-//  HCKeychainHandler.swift
+//  PSKeychainHandler.swift
 //  PasseiHTTPCertificate
 //
 //  Created by vagner reis on 26/10/24.
@@ -11,7 +11,7 @@ import Security
 public typealias KeychainModel = Decodable & Encodable & Sendable
 
 /// Gerenciador de acesso ao Keychain para armazenamento seguro de dados genéricos.
-public struct HCKeychainHandler<T: KeychainModel> {
+public struct PSKeychainHandler<T: KeychainModel> {
     
     /// Possíveis erros que podem ocorrer durante as operações do Keychain.
     public enum Error: Swift.Error {

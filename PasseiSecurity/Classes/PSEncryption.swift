@@ -1,5 +1,5 @@
 //
-//  HCEncryption.swift
+//  PSEncryption.swift
 //  PasseiHTTPCertificate
 //
 //  Created by Vagner Reis on 29/10/24.
@@ -11,7 +11,7 @@ import CryptoKit
 /// `HCEncryption` é uma estrutura para realizar operações de criptografia e descriptografia usando AES-GCM.
 /// Esta estrutura permite criptografar mensagens de texto e recuperar o texto original a partir de uma mensagem criptografada.
 ///
-public struct HCEncryption {
+public struct PSEncryption {
     
     private let keyBase64: String
     

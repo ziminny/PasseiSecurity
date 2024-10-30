@@ -1,5 +1,5 @@
 //
-//  HCError.swift
+//  PSError.swift
 //  PasseiHTTPCertificate
 //
 //  Created by vagner reis on 17/10/24.
@@ -8,7 +8,7 @@
 import Foundation
 import PasseiLogManager
 
-enum HCError: LocalizedError {
+enum PSError: LocalizedError {
     
     case urlError
     case dataError

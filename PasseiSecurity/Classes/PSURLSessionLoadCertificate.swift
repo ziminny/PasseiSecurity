@@ -1,5 +1,5 @@
 //
-//  HCURLSessionLoadCertificate.swift
+//  PSURLSessionLoadCertificate.swift
 //  PasseiHTTPCertificate
 //
 //  Created by vagner reis on 17/10/24.
@@ -7,12 +7,12 @@
 
 import Foundation
 
-public struct HCURLSessionLoadCertificate: Sendable {
+public struct PSURLSessionLoadCertificate: Sendable {
     
-    private let keychain: HCKeychainCertificateHandler
+    private let keychain: PSKeychainCertificateHandler
     
     public init() {
-        self.keychain = HCKeychainCertificateHandler()
+        self.keychain = PSKeychainCertificateHandler()
     }
     
     public func urlSession(_: URLSession, didReceive challenge: URLAuthenticationChallenge, completionHandler: @escaping (URLSession.AuthChallengeDisposition, URLCredential?) -> Void) throws {
@@ -25,7 +25,7 @@ public struct HCURLSessionLoadCertificate: Sendable {
         
         guard let identity = try keychain.loadClientIdentity() else {
             print("Certificado não encontrado")
-            throw HCError.itemNotFound
+            throw PSError.itemNotFound
         }
         
         let credential = URLCredential(identity: identity as! SecIdentity, certificates: nil, persistence: .none)
