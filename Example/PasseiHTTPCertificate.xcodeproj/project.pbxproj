@@ -15,7 +15,8 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		A740F98C2C45D3D792F10D42 /* Pods_PasseiHTTPCertificate_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51BF299E28B6BB41D9A12F56 /* Pods_PasseiHTTPCertificate_Tests.framework */; };
-		C7EBC9582CC0C4F3008B7779 /* certificate.p12 in Resources */ = {isa = PBXBuildFile; fileRef = C7EBC9572CC0C4F3008B7779 /* certificate.p12 */; };
+		C72854612CC9DB500020E6DF /* download_cert.p12 in Resources */ = {isa = PBXBuildFile; fileRef = C72854602CC9DB500020E6DF /* download_cert.p12 */; };
+		C7DEE9072CCC268600ACE21D /* client.p12 in Resources */ = {isa = PBXBuildFile; fileRef = C7DEE9062CCC268600ACE21D /* client.p12 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +48,8 @@
 		683C22C2282B070F57C298EF /* Pods-PasseiHTTPCertificate_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasseiHTTPCertificate_Tests.debug.xcconfig"; path = "Target Support Files/Pods-PasseiHTTPCertificate_Tests/Pods-PasseiHTTPCertificate_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		88C234370FD25B32FBA6FE2A /* Pods_PasseiHTTPCertificate_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PasseiHTTPCertificate_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C06226BF6E2ECA95A98E5986 /* Pods-PasseiHTTPCertificate_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasseiHTTPCertificate_Tests.release.xcconfig"; path = "Target Support Files/Pods-PasseiHTTPCertificate_Tests/Pods-PasseiHTTPCertificate_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C7EBC9572CC0C4F3008B7779 /* certificate.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; name = certificate.p12; path = ../../certificate.p12; sourceTree = "<group>"; };
+		C72854602CC9DB500020E6DF /* download_cert.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = download_cert.p12; sourceTree = "<group>"; };
+		C7DEE9062CCC268600ACE21D /* client.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = client.p12; sourceTree = "<group>"; };
 		E78C1E1804EDBD9A8C311FF6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,7 +97,8 @@
 		607FACD21AFB9204008FA782 /* Example for PasseiHTTPCertificate */ = {
 			isa = PBXGroup;
 			children = (
-				C7EBC9572CC0C4F3008B7779 /* certificate.p12 */,
+				C7DEE9062CCC268600ACE21D /* client.p12 */,
+				C72854602CC9DB500020E6DF /* download_cert.p12 */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -254,7 +257,8 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
-				C7EBC9582CC0C4F3008B7779 /* certificate.p12 in Resources */,
+				C72854612CC9DB500020E6DF /* download_cert.p12 in Resources */,
+				C7DEE9072CCC268600ACE21D /* client.p12 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,10 +280,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-PasseiHTTPCertificate_Example/Pods-PasseiHTTPCertificate_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/PasseiHTTPCertificate/PasseiHTTPCertificate.framework",
+				"${BUILT_PRODUCTS_DIR}/PasseiLogManager/PasseiLogManager.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PasseiHTTPCertificate.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PasseiLogManager.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

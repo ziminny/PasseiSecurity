@@ -1,0 +1,6 @@
+framework module PasseiLogManager {
+  umbrella header "PasseiLogManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

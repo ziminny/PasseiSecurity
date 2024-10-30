@@ -2,9 +2,12 @@ project 'PasseiHTTPCertificate.xcodeproj'
 
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '16.0'
 
 target 'PasseiHTTPCertificate_Example' do
+  #pod 'PasseiLogManager', :path => '../../PasseiLogManager'
+  
+  pod 'PasseiLogManager', :git => 'https://github.com/ziminny/PasseiLogManager.git'
   pod 'PasseiHTTPCertificate', :path => '../'
 
   target 'PasseiHTTPCertificate_Tests' do
