@@ -1,5 +1,5 @@
 import XCTest
-import PasseiHTTPCertificate
+import PasseiSecurity
 
 class Tests: XCTestCase {
     

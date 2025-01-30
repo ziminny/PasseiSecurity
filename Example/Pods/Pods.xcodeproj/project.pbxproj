@@ -8,121 +8,127 @@
 
 /* Begin PBXBuildFile section */
 		05594FE963833B1DB949BFED7827EC1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		08D444F8B27D9982E38EC5FEDA87064D /* HCKeychainCertificateHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1717194E978FB41243BB56A8D4CC373 /* HCKeychainCertificateHandler.swift */; };
-		47391B49A2E64B174ED280201E06D9C2 /* Pods-PasseiHTTPCertificate_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4BB991CCDCCBC8CFC41F13AE4BBC39E /* Pods-PasseiHTTPCertificate_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D2157196BFD7FAEC505652838AAA1B0 /* PasseiHTTPCertificate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E6A00DAE67BE46F6C8C594218A08582 /* PasseiHTTPCertificate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5DCBDA45F22FE599A0641C6E20D15619 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		63A3B52DFE06AC2031C207C067279CAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		83C1909D892B45B91247A6BFC03C9163 /* HCKeychainHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4933C721F2237291ACD1DCDF6EC97E /* HCKeychainHandler.swift */; };
-		8F35557BF820B31AA5E8542EC033BE19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		91E8109935CB699CC037BD01B832A0CA /* PasseiHTTPCertificate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93676F18210D016546CEFD08151AE196 /* PasseiHTTPCertificate-dummy.m */; };
-		9DE6E159B529DC0517CC1C8C9D1A0EC1 /* PasseiLogManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F05B305EB850F5F69BEAE52D413C32 /* PasseiLogManager-dummy.m */; };
-		9E92A4A6E1E28788C6B60CA9B52B8006 /* HCError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009F4383A69DE050B6E23D5B262EDCBF /* HCError.swift */; };
-		A1CF6588770A2EC4B447E63881312ED0 /* PasseiLogManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44A5230E46C87260A6C866228D853AFE /* PasseiLogManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12F41057B46D484C11BAD21DBEBF64E9 /* PSGenericKeychainHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EACDE44ED50D8DDEDA027266F1CD68 /* PSGenericKeychainHandler.swift */; };
+		1FB3D6953CC893B248797447EA1A8D30 /* PSGenericKeychainError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D58C217890AECF373F27E4FD1C5EF9 /* PSGenericKeychainError.swift */; };
+		1FEBA979F889B808D9A43158A86F0B16 /* Pods-PasseiHTTPCertificate_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4BB991CCDCCBC8CFC41F13AE4BBC39E /* Pods-PasseiHTTPCertificate_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		247D68387DA28B73864E618385EE5F70 /* PasseiSecurity-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C9B5CD29EB8679263412F93327629B /* PasseiSecurity-dummy.m */; };
+		2F1AC01FEC16B553EBD2187F817A5D4B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3838457E8BA0FED785D6E586C5986FC4 /* Constants.swift */; };
+		3B754E98365888FAB4264EA88691529A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3ECA7F58E08B68C2AAED89BC159A62B2 /* PSKeychainCertificateHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FFC57FC8226459CD84B7918D50C48F /* PSKeychainCertificateHandler.swift */; };
+		5259ED5E8F35A1FFF3023DE7D1D9F46F /* PSURLSessionLoadCertificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6492592F8A7B064E749381B0B98EAA1 /* PSURLSessionLoadCertificate.swift */; };
+		578CC3429F5A85A79E3ADD25CE4E02C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5CCD08F43D915C9EE628DE0328EBA85D /* PSEncryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B6837E0929FB8DFFAC8A4745816899 /* PSEncryption.swift */; };
+		6BAC6E6AE7BD7D658779426DCADDEF96 /* PSCertificateError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8DDC3E805ED178137C265CE63A3134 /* PSCertificateError.swift */; };
+		848BE97222014C2A6F81DACD6819322D /* Pods-PasseiHTTPCertificate_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD58F79198E01C91E0DF0D3AE5F5D3D /* Pods-PasseiHTTPCertificate_Example-dummy.m */; };
+		8D2809E3C60439C9C3D47A20A1F5A1C6 /* PasseiLogManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44A5230E46C87260A6C866228D853AFE /* PasseiLogManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9033BE98331755BDBEDDCB43907B2806 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9D1C07EB58692803A4E0668DE3B31322 /* PSKeychainFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62741DBFC5DADB94BB3ED4783CB95947 /* PSKeychainFacade.swift */; };
 		AB0F86E5447568AD8C0C6B613D9F5E3E /* Pods-PasseiHTTPCertificate_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E44CE182B0D34F7C7495C354FCE1E4A1 /* Pods-PasseiHTTPCertificate_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF7345A1065E8837246FF3C1D26C0145 /* HCURLSessionLoadCertificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC2EFB1044BF05BE4B9238A02C7555A /* HCURLSessionLoadCertificate.swift */; };
-		B612114004BFEA61339A546E183597A7 /* HCKeychainProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2750F2D69BF5D728F561069361DBF61 /* HCKeychainProperties.swift */; };
-		CD79A8E9F6A13F4FBB80248ED86E4F97 /* Pods-PasseiHTTPCertificate_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD58F79198E01C91E0DF0D3AE5F5D3D /* Pods-PasseiHTTPCertificate_Example-dummy.m */; };
+		BC2845B1B615E79514F629A4F0A25562 /* PLMLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC74C428EB293CA95D8DF13A5E3CA6B /* PLMLogger.swift */; };
+		CD456B55CCAE53971C60C1C054D16669 /* PasseiSecurity-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1AA22771D9F90C23784704247F014B /* PasseiSecurity-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CFF6D4D85C4297BF748BCA5954844DAB /* Pods-PasseiHTTPCertificate_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E29D49E2C33390859DC8602185EA015 /* Pods-PasseiHTTPCertificate_Tests-dummy.m */; };
-		D7D41570EF44B18D6BF887AF073DD381 /* PLMLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC74C428EB293CA95D8DF13A5E3CA6B /* PLMLogger.swift */; };
-		EB83AB16312E3DC31A3BEEA277B023E2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3838457E8BA0FED785D6E586C5986FC4 /* Constants.swift */; };
+		D5C8F23AFA475FDAB9EB39B9B06ECFA9 /* PasseiLogManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F05B305EB850F5F69BEAE52D413C32 /* PasseiLogManager-dummy.m */; };
+		E516EEDC17E250A7FEFA239ADF611A28 /* PSKeychainProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3449D4D5506C119186658DF43D2D8D /* PSKeychainProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		90FC45F415A6ECD4EE9094D9F941F6BF /* PBXContainerItemProxy */ = {
+		0C464BD6B1CACB637237FFB2C33DEB6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDC99F257068F9D48999520FABDAF468;
+			remoteInfo = PasseiSecurity;
+		};
+		31EDC270CE8421709E43470DD6672F06 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BF22EC7D6FEBF0F538409ED6C888E9CC;
 			remoteInfo = PasseiLogManager;
 		};
-		A8D70DFA9F853F2CF94575D91169D654 /* PBXContainerItemProxy */ = {
+		A965B63F8DC9F25E46F3D0FA65FC6F6D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BF22EC7D6FEBF0F538409ED6C888E9CC;
 			remoteInfo = PasseiLogManager;
 		};
-		AFA205B91E17EF6331F15B7F9E62F5BA /* PBXContainerItemProxy */ = {
+		C9CCE000FD4C218AFC058D0F384F42C4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8311A4D258456508C9190C824E73D70A;
 			remoteInfo = "Pods-PasseiHTTPCertificate_Example";
 		};
-		CF58703C6C8B582816752088633FA29B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6FB1E487EDE4193B3D38F95159ACFFE6;
-			remoteInfo = PasseiHTTPCertificate;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		009F4383A69DE050B6E23D5B262EDCBF /* HCError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HCError.swift; path = PasseiHTTPCertificate/Classes/HCError.swift; sourceTree = "<group>"; };
 		0278E7817B93A8D822451F3B757C4370 /* PasseiLogManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PasseiLogManager.debug.xcconfig; sourceTree = "<group>"; };
 		04A4084979DBF1541B999AE9B19C98A8 /* Pods-PasseiHTTPCertificate_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PasseiHTTPCertificate_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		090A112CBB7343FDFBAE91655A0B94B3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		0C9528F97A6EF931704D43DAD0CF5E51 /* PasseiLogManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PasseiLogManager-prefix.pch"; sourceTree = "<group>"; };
+		0E8DDC3E805ED178137C265CE63A3134 /* PSCertificateError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PSCertificateError.swift; path = PasseiSecurity/Classes/PSCertificateError.swift; sourceTree = "<group>"; };
+		12FA2353E8F1D3A33BB69D9F313BA17F /* PasseiSecurity.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PasseiSecurity.modulemap; sourceTree = "<group>"; };
+		170A1EFC85D5A9CD27ACDF1706DEC406 /* PasseiSecurity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PasseiSecurity.debug.xcconfig; sourceTree = "<group>"; };
+		1C0A6F95364B5560A3E34D85AE59537A /* PasseiSecurity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PasseiSecurity.release.xcconfig; sourceTree = "<group>"; };
 		222BF6155E0CFDED3218B9082DCB738A /* PasseiLogManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PasseiLogManager-Info.plist"; sourceTree = "<group>"; };
+		30FFC57FC8226459CD84B7918D50C48F /* PSKeychainCertificateHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PSKeychainCertificateHandler.swift; path = PasseiSecurity/Classes/PSKeychainCertificateHandler.swift; sourceTree = "<group>"; };
 		3838457E8BA0FED785D6E586C5986FC4 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = PasseiLogManager/Classes/Constants.swift; sourceTree = "<group>"; };
-		3D4933C721F2237291ACD1DCDF6EC97E /* HCKeychainHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HCKeychainHandler.swift; path = PasseiHTTPCertificate/Classes/HCKeychainHandler.swift; sourceTree = "<group>"; };
-		3FC9AFBE861134D5D5A18542EE501743 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3D27E6E45A434334D3B4F95D1298A394 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		44A5230E46C87260A6C866228D853AFE /* PasseiLogManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PasseiLogManager-umbrella.h"; sourceTree = "<group>"; };
-		519B09C67223D31B5C75E9FCCECA683D /* PasseiHTTPCertificate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PasseiHTTPCertificate.modulemap; sourceTree = "<group>"; };
+		56C7F4971F842A6647031C176CB69A9E /* PasseiSecurity-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PasseiSecurity-Info.plist"; sourceTree = "<group>"; };
+		5E1AA22771D9F90C23784704247F014B /* PasseiSecurity-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PasseiSecurity-umbrella.h"; sourceTree = "<group>"; };
 		62464839C5200BBE74EBAA64D8CFB449 /* Pods-PasseiHTTPCertificate_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PasseiHTTPCertificate_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		62741DBFC5DADB94BB3ED4783CB95947 /* PSKeychainFacade.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PSKeychainFacade.swift; path = PasseiSecurity/Classes/PSKeychainFacade.swift; sourceTree = "<group>"; };
 		63234C5143BD57D7231F588B7DD008D3 /* Pods-PasseiHTTPCertificate_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PasseiHTTPCertificate_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6498783C3B536D50E52F3C5833A587CD /* PasseiHTTPCertificate */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PasseiHTTPCertificate; path = PasseiHTTPCertificate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66055FE0647F92ED68CDAEAD3BF008C6 /* PasseiLogManager */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PasseiLogManager; path = PasseiLogManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67C9B5CD29EB8679263412F93327629B /* PasseiSecurity-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PasseiSecurity-dummy.m"; sourceTree = "<group>"; };
 		6CD86AFEFAE8DAFC2BF9E348CA1B1C2A /* PasseiLogManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PasseiLogManager.modulemap; sourceTree = "<group>"; };
 		71B18D1715518F30AE2201736AAC12A2 /* Pods-PasseiHTTPCertificate_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PasseiHTTPCertificate_Example-Info.plist"; sourceTree = "<group>"; };
+		72EACDE44ED50D8DDEDA027266F1CD68 /* PSGenericKeychainHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PSGenericKeychainHandler.swift; path = PasseiSecurity/Classes/PSGenericKeychainHandler.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7435071EB6FA363C408AC11159967939 /* Pods-PasseiHTTPCertificate_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PasseiHTTPCertificate_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7AC053F9ECAD18C55D69187BD8A2BE3C /* PasseiLogManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PasseiLogManager.release.xcconfig; sourceTree = "<group>"; };
-		7BE8F1C46619DA23A75EAC0277B16384 /* PasseiHTTPCertificate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PasseiHTTPCertificate.release.xcconfig; sourceTree = "<group>"; };
 		84CBA5C192665BDC7DBE4AF97C6CA5CB /* Pods-PasseiHTTPCertificate_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PasseiHTTPCertificate_Tests.modulemap"; sourceTree = "<group>"; };
 		858EC5782EA2F060742300EF28B97F34 /* Pods-PasseiHTTPCertificate_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PasseiHTTPCertificate_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8D3449D4D5506C119186658DF43D2D8D /* PSKeychainProperties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PSKeychainProperties.swift; path = PasseiSecurity/Classes/PSKeychainProperties.swift; sourceTree = "<group>"; };
 		8E29D49E2C33390859DC8602185EA015 /* Pods-PasseiHTTPCertificate_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PasseiHTTPCertificate_Tests-dummy.m"; sourceTree = "<group>"; };
-		8E6A00DAE67BE46F6C8C594218A08582 /* PasseiHTTPCertificate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PasseiHTTPCertificate-umbrella.h"; sourceTree = "<group>"; };
 		9275FEBD123E90FE637B8DF547E5BD83 /* Pods-PasseiHTTPCertificate_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PasseiHTTPCertificate_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		93676F18210D016546CEFD08151AE196 /* PasseiHTTPCertificate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PasseiHTTPCertificate-dummy.m"; sourceTree = "<group>"; };
 		94126E252BD9833D0D2AE0E555085828 /* Pods-PasseiHTTPCertificate_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PasseiHTTPCertificate_Tests"; path = Pods_PasseiHTTPCertificate_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94BC9405B3B72E72E26B110D5CCB8241 /* Pods-PasseiHTTPCertificate_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PasseiHTTPCertificate_Tests-Info.plist"; sourceTree = "<group>"; };
 		98C183B9CB139B50E34C69AE3BEF3282 /* Pods-PasseiHTTPCertificate_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PasseiHTTPCertificate_Example.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AA657576CB583E85B851F1971E57C90A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		ACA81ED123EA2A0E3F1294327C9D8441 /* PasseiHTTPCertificate-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PasseiHTTPCertificate-Info.plist"; sourceTree = "<group>"; };
+		A079BA00B95B00A6189EE8128549C2B6 /* PasseiSecurity.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PasseiSecurity.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B77BB138FE8688B3364CFD009A206D5A /* PasseiSecurity-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PasseiSecurity-prefix.pch"; sourceTree = "<group>"; };
+		C1B6837E0929FB8DFFAC8A4745816899 /* PSEncryption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PSEncryption.swift; path = PasseiSecurity/Classes/PSEncryption.swift; sourceTree = "<group>"; };
 		C2AEB0E7EEA6031191DA817CE9A7524D /* Pods-PasseiHTTPCertificate_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PasseiHTTPCertificate_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CE0A1A5574184A1F2DDC001638014847 /* Pods-PasseiHTTPCertificate_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PasseiHTTPCertificate_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D0C8E52690A1B8CE5438B7731912EDF1 /* PasseiHTTPCertificate.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PasseiHTTPCertificate.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D4BB991CCDCCBC8CFC41F13AE4BBC39E /* Pods-PasseiHTTPCertificate_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PasseiHTTPCertificate_Example-umbrella.h"; sourceTree = "<group>"; };
-		D8D54898040D6AA2AAD293A44F9D1700 /* PasseiHTTPCertificate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PasseiHTTPCertificate.debug.xcconfig; sourceTree = "<group>"; };
 		DAC74C428EB293CA95D8DF13A5E3CA6B /* PLMLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PLMLogger.swift; path = PasseiLogManager/Classes/PLMLogger.swift; sourceTree = "<group>"; };
 		E1F05B305EB850F5F69BEAE52D413C32 /* PasseiLogManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PasseiLogManager-dummy.m"; sourceTree = "<group>"; };
-		E2750F2D69BF5D728F561069361DBF61 /* HCKeychainProperties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HCKeychainProperties.swift; path = PasseiHTTPCertificate/Classes/HCKeychainProperties.swift; sourceTree = "<group>"; };
-		E2D50713A298CB4E186650D1AD20BD08 /* PasseiHTTPCertificate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PasseiHTTPCertificate-prefix.pch"; sourceTree = "<group>"; };
 		E44CE182B0D34F7C7495C354FCE1E4A1 /* Pods-PasseiHTTPCertificate_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PasseiHTTPCertificate_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E6492592F8A7B064E749381B0B98EAA1 /* PSURLSessionLoadCertificate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PSURLSessionLoadCertificate.swift; path = PasseiSecurity/Classes/PSURLSessionLoadCertificate.swift; sourceTree = "<group>"; };
 		E71F7264FCC6A89551427EC58C6EB2AB /* Pods-PasseiHTTPCertificate_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PasseiHTTPCertificate_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E82580C82FAE884776687368F45BB249 /* PasseiSecurity */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PasseiSecurity; path = PasseiSecurity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD58F79198E01C91E0DF0D3AE5F5D3D /* Pods-PasseiHTTPCertificate_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PasseiHTTPCertificate_Example-dummy.m"; sourceTree = "<group>"; };
-		F1717194E978FB41243BB56A8D4CC373 /* HCKeychainCertificateHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HCKeychainCertificateHandler.swift; path = PasseiHTTPCertificate/Classes/HCKeychainCertificateHandler.swift; sourceTree = "<group>"; };
 		F49A12E3B226EA894D5ED3925C774FE6 /* Pods-PasseiHTTPCertificate_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PasseiHTTPCertificate_Example"; path = Pods_PasseiHTTPCertificate_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FEC2EFB1044BF05BE4B9238A02C7555A /* HCURLSessionLoadCertificate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HCURLSessionLoadCertificate.swift; path = PasseiHTTPCertificate/Classes/HCURLSessionLoadCertificate.swift; sourceTree = "<group>"; };
+		F4D58C217890AECF373F27E4FD1C5EF9 /* PSGenericKeychainError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PSGenericKeychainError.swift; path = PasseiSecurity/Classes/PSGenericKeychainError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1B5A97E4505B69EC52901B66705097FB /* Frameworks */ = {
+		3F580D1B575A02F8FF97338FA7C1F16D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DCBDA45F22FE599A0641C6E20D15619 /* Foundation.framework in Frameworks */,
+				9033BE98331755BDBEDDCB43907B2806 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		34446FCEDAD6E3497ACDEE365FC68A23 /* Frameworks */ = {
+		706BC385C274181D0B3ACC29D9A3698A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F35557BF820B31AA5E8542EC033BE19 /* Foundation.framework in Frameworks */,
+				578CC3429F5A85A79E3ADD25CE4E02C9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,49 +140,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD53D03FBD5E1A8F867D675E42D828FF /* Frameworks */ = {
+		FC788C5B263C54AE5415E79D5DCF9EF1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63A3B52DFE06AC2031C207C067279CAC /* Foundation.framework in Frameworks */,
+				3B754E98365888FAB4264EA88691529A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2CB17D05BCF72B06B5484014B7870AEE /* Development Pods */ = {
+		34E2DE76578DA695282A02A6F45C1859 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				45751DF6EDA935FF3CE435718B9281A3 /* PasseiHTTPCertificate */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		402239D7DE2D328ABB1981CB84E8D55E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6498783C3B536D50E52F3C5833A587CD /* PasseiHTTPCertificate */,
 				66055FE0647F92ED68CDAEAD3BF008C6 /* PasseiLogManager */,
+				E82580C82FAE884776687368F45BB249 /* PasseiSecurity */,
 				F49A12E3B226EA894D5ED3925C774FE6 /* Pods-PasseiHTTPCertificate_Example */,
 				94126E252BD9833D0D2AE0E555085828 /* Pods-PasseiHTTPCertificate_Tests */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		45751DF6EDA935FF3CE435718B9281A3 /* PasseiHTTPCertificate */ = {
-			isa = PBXGroup;
-			children = (
-				009F4383A69DE050B6E23D5B262EDCBF /* HCError.swift */,
-				F1717194E978FB41243BB56A8D4CC373 /* HCKeychainCertificateHandler.swift */,
-				3D4933C721F2237291ACD1DCDF6EC97E /* HCKeychainHandler.swift */,
-				E2750F2D69BF5D728F561069361DBF61 /* HCKeychainProperties.swift */,
-				FEC2EFB1044BF05BE4B9238A02C7555A /* HCURLSessionLoadCertificate.swift */,
-				72D7C1D6BA8527CFCBA75A089825D0CF /* Pod */,
-				C02EB38F1AAB4E530F745373D38F5A13 /* Support Files */,
-			);
-			name = PasseiHTTPCertificate;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		4D8FB9596AA290571492D52DB110B4A5 /* Pods-PasseiHTTPCertificate_Tests */ = {
@@ -203,6 +186,24 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		5C6382377D3D72D575FAC099CDB67331 /* PasseiSecurity */ = {
+			isa = PBXGroup;
+			children = (
+				0E8DDC3E805ED178137C265CE63A3134 /* PSCertificateError.swift */,
+				C1B6837E0929FB8DFFAC8A4745816899 /* PSEncryption.swift */,
+				F4D58C217890AECF373F27E4FD1C5EF9 /* PSGenericKeychainError.swift */,
+				72EACDE44ED50D8DDEDA027266F1CD68 /* PSGenericKeychainHandler.swift */,
+				30FFC57FC8226459CD84B7918D50C48F /* PSKeychainCertificateHandler.swift */,
+				62741DBFC5DADB94BB3ED4783CB95947 /* PSKeychainFacade.swift */,
+				8D3449D4D5506C119186658DF43D2D8D /* PSKeychainProperties.swift */,
+				E6492592F8A7B064E749381B0B98EAA1 /* PSURLSessionLoadCertificate.swift */,
+				F0BEB9D2AD4DBA68A8783C1C7B0BF1A3 /* Pod */,
+				D1A8345EC2B653D0C3350D777930B896 /* Support Files */,
+			);
+			name = PasseiSecurity;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		63CB45ABB16C981B57EB03A570FD08B8 /* Pods-PasseiHTTPCertificate_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -220,16 +221,6 @@
 			path = "Target Support Files/Pods-PasseiHTTPCertificate_Example";
 			sourceTree = "<group>";
 		};
-		72D7C1D6BA8527CFCBA75A089825D0CF /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				AA657576CB583E85B851F1971E57C90A /* LICENSE */,
-				D0C8E52690A1B8CE5438B7731912EDF1 /* PasseiHTTPCertificate.podspec */,
-				3FC9AFBE861134D5D5A18542EE501743 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		A5C98324253CB6500A5335E6E2EBDB1B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -245,31 +236,39 @@
 			path = "../Target Support Files/PasseiLogManager";
 			sourceTree = "<group>";
 		};
-		C02EB38F1AAB4E530F745373D38F5A13 /* Support Files */ = {
+		AA4E6CCF57445D383FE65090651FE4E1 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				519B09C67223D31B5C75E9FCCECA683D /* PasseiHTTPCertificate.modulemap */,
-				93676F18210D016546CEFD08151AE196 /* PasseiHTTPCertificate-dummy.m */,
-				ACA81ED123EA2A0E3F1294327C9D8441 /* PasseiHTTPCertificate-Info.plist */,
-				E2D50713A298CB4E186650D1AD20BD08 /* PasseiHTTPCertificate-prefix.pch */,
-				8E6A00DAE67BE46F6C8C594218A08582 /* PasseiHTTPCertificate-umbrella.h */,
-				D8D54898040D6AA2AAD293A44F9D1700 /* PasseiHTTPCertificate.debug.xcconfig */,
-				7BE8F1C46619DA23A75EAC0277B16384 /* PasseiHTTPCertificate.release.xcconfig */,
+				5C6382377D3D72D575FAC099CDB67331 /* PasseiSecurity */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/PasseiHTTPCertificate";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				2CB17D05BCF72B06B5484014B7870AEE /* Development Pods */,
+				AA4E6CCF57445D383FE65090651FE4E1 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				ED05C0D63BFBC4CD566981A05A716054 /* Pods */,
-				402239D7DE2D328ABB1981CB84E8D55E /* Products */,
+				34E2DE76578DA695282A02A6F45C1859 /* Products */,
 				FDC63BD2C6B923A3FA0458E64DDDB4CE /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D1A8345EC2B653D0C3350D777930B896 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				12FA2353E8F1D3A33BB69D9F313BA17F /* PasseiSecurity.modulemap */,
+				67C9B5CD29EB8679263412F93327629B /* PasseiSecurity-dummy.m */,
+				56C7F4971F842A6647031C176CB69A9E /* PasseiSecurity-Info.plist */,
+				B77BB138FE8688B3364CFD009A206D5A /* PasseiSecurity-prefix.pch */,
+				5E1AA22771D9F90C23784704247F014B /* PasseiSecurity-umbrella.h */,
+				170A1EFC85D5A9CD27ACDF1706DEC406 /* PasseiSecurity.debug.xcconfig */,
+				1C0A6F95364B5560A3E34D85AE59537A /* PasseiSecurity.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PasseiSecurity";
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -299,6 +298,16 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		F0BEB9D2AD4DBA68A8783C1C7B0BF1A3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3D27E6E45A434334D3B4F95D1298A394 /* LICENSE */,
+				A079BA00B95B00A6189EE8128549C2B6 /* PasseiSecurity.podspec */,
+				090A112CBB7343FDFBAE91655A0B94B3 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		FDC63BD2C6B923A3FA0458E64DDDB4CE /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -311,6 +320,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		249843825AD60BF9A1CDA2F3D7E2E2F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D2809E3C60439C9C3D47A20A1F5A1C6 /* PasseiLogManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3CB4FDDB679B98115686EF8A66EB6202 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -319,66 +336,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D33BDEFEE469F1A6EC0BE5BB3E15492 /* Headers */ = {
+		65C43CA5BFF1B1EE72A9751E736720F4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47391B49A2E64B174ED280201E06D9C2 /* Pods-PasseiHTTPCertificate_Example-umbrella.h in Headers */,
+				CD456B55CCAE53971C60C1C054D16669 /* PasseiSecurity-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D459210AE18A933377B4A985102846F /* Headers */ = {
+		88D528CCAD7C6F9B5812D43D1BC24FCE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D2157196BFD7FAEC505652838AAA1B0 /* PasseiHTTPCertificate-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A121EA8283436A4BD9AF6AAB360BF732 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A1CF6588770A2EC4B447E63881312ED0 /* PasseiLogManager-umbrella.h in Headers */,
+				1FEBA979F889B808D9A43158A86F0B16 /* Pods-PasseiHTTPCertificate_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6FB1E487EDE4193B3D38F95159ACFFE6 /* PasseiHTTPCertificate */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 15EBF221DFA2854937359B93A3A700F0 /* Build configuration list for PBXNativeTarget "PasseiHTTPCertificate" */;
-			buildPhases = (
-				3D459210AE18A933377B4A985102846F /* Headers */,
-				535E4F9CE4A62F1BB9CD7B8C14F3E686 /* Sources */,
-				FD53D03FBD5E1A8F867D675E42D828FF /* Frameworks */,
-				7D4602D497220A515B414039F7FD3859 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EC7D2AB11C143B74AD67369808CCACFE /* PBXTargetDependency */,
-			);
-			name = PasseiHTTPCertificate;
-			productName = PasseiHTTPCertificate;
-			productReference = 6498783C3B536D50E52F3C5833A587CD /* PasseiHTTPCertificate */;
-			productType = "com.apple.product-type.framework";
-		};
 		8311A4D258456508C9190C824E73D70A /* Pods-PasseiHTTPCertificate_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8F1C03702A5F7F221DB34E4C57EC8BA9 /* Build configuration list for PBXNativeTarget "Pods-PasseiHTTPCertificate_Example" */;
+			buildConfigurationList = 911DA4FB34FF28D3BF0613F1F763600F /* Build configuration list for PBXNativeTarget "Pods-PasseiHTTPCertificate_Example" */;
 			buildPhases = (
-				3D33BDEFEE469F1A6EC0BE5BB3E15492 /* Headers */,
-				89D18569F0050C61BE4AB7B8F5C245A1 /* Sources */,
-				1B5A97E4505B69EC52901B66705097FB /* Frameworks */,
-				C49FC12E4E5492BC398F7C54CF4E4984 /* Resources */,
+				88D528CCAD7C6F9B5812D43D1BC24FCE /* Headers */,
+				957170979F6186415B8780B9B811B681 /* Sources */,
+				706BC385C274181D0B3ACC29D9A3698A /* Frameworks */,
+				1B419BCC8E273E59A44F39CEE3EF9DC2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9C6E8191A53A38DB5237916B63095373 /* PBXTargetDependency */,
-				49626A1EECE36B3C3E4F1C9CDB2E4DE8 /* PBXTargetDependency */,
+				192F3DAFBDBB1293C238785DBFB949EA /* PBXTargetDependency */,
+				7BD0D9C64A9BEBB383751821F12EC5BA /* PBXTargetDependency */,
 			);
 			name = "Pods-PasseiHTTPCertificate_Example";
 			productName = Pods_PasseiHTTPCertificate_Example;
@@ -397,7 +387,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				EAC713E9FFE0731BCAD7B2B20C30C4EC /* PBXTargetDependency */,
+				86E8F04F71F8A596A07FF45E00EF1D05 /* PBXTargetDependency */,
 			);
 			name = "Pods-PasseiHTTPCertificate_Tests";
 			productName = Pods_PasseiHTTPCertificate_Tests;
@@ -406,12 +396,12 @@
 		};
 		BF22EC7D6FEBF0F538409ED6C888E9CC /* PasseiLogManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1B36599A3DB978C1780C41A745F0D49E /* Build configuration list for PBXNativeTarget "PasseiLogManager" */;
+			buildConfigurationList = 2038C6CDDA4BBD2B78647F0BB271DAC6 /* Build configuration list for PBXNativeTarget "PasseiLogManager" */;
 			buildPhases = (
-				A121EA8283436A4BD9AF6AAB360BF732 /* Headers */,
-				77037287F74365E32992F740D6103958 /* Sources */,
-				34446FCEDAD6E3497ACDEE365FC68A23 /* Frameworks */,
-				1180B09DC33ED29019AA35A598ABF076 /* Resources */,
+				249843825AD60BF9A1CDA2F3D7E2E2F8 /* Headers */,
+				F7089609495EB6A0F006BDB2630FB23D /* Sources */,
+				3F580D1B575A02F8FF97338FA7C1F16D /* Frameworks */,
+				F29B67634BD7B1B066F2813CB25243BF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -420,6 +410,25 @@
 			name = PasseiLogManager;
 			productName = PasseiLogManager;
 			productReference = 66055FE0647F92ED68CDAEAD3BF008C6 /* PasseiLogManager */;
+			productType = "com.apple.product-type.framework";
+		};
+		FDC99F257068F9D48999520FABDAF468 /* PasseiSecurity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CB00EDAE11BCA0FA6E7754888500F04 /* Build configuration list for PBXNativeTarget "PasseiSecurity" */;
+			buildPhases = (
+				65C43CA5BFF1B1EE72A9751E736720F4 /* Headers */,
+				23D63FC2199A70F0F76D745F62D21915 /* Sources */,
+				FC788C5B263C54AE5415E79D5DCF9EF1 /* Frameworks */,
+				B80E79F58E2181BBC36F3FEAB7E7CAD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A0E038C6A7ED265C23FC5FD1B0972C2 /* PBXTargetDependency */,
+			);
+			name = PasseiSecurity;
+			productName = PasseiSecurity;
+			productReference = E82580C82FAE884776687368F45BB249 /* PasseiSecurity */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -441,12 +450,12 @@
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			minimizedProjectReferenceProxies = 0;
-			productRefGroup = 402239D7DE2D328ABB1981CB84E8D55E /* Products */;
+			productRefGroup = 34E2DE76578DA695282A02A6F45C1859 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6FB1E487EDE4193B3D38F95159ACFFE6 /* PasseiHTTPCertificate */,
 				BF22EC7D6FEBF0F538409ED6C888E9CC /* PasseiLogManager */,
+				FDC99F257068F9D48999520FABDAF468 /* PasseiSecurity */,
 				8311A4D258456508C9190C824E73D70A /* Pods-PasseiHTTPCertificate_Example */,
 				B85EBF1E12F36C282C093584113708EE /* Pods-PasseiHTTPCertificate_Tests */,
 			);
@@ -461,21 +470,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1180B09DC33ED29019AA35A598ABF076 /* Resources */ = {
+		1B419BCC8E273E59A44F39CEE3EF9DC2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7D4602D497220A515B414039F7FD3859 /* Resources */ = {
+		B80E79F58E2181BBC36F3FEAB7E7CAD6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C49FC12E4E5492BC398F7C54CF4E4984 /* Resources */ = {
+		F29B67634BD7B1B066F2813CB25243BF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -485,34 +494,27 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		535E4F9CE4A62F1BB9CD7B8C14F3E686 /* Sources */ = {
+		23D63FC2199A70F0F76D745F62D21915 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E92A4A6E1E28788C6B60CA9B52B8006 /* HCError.swift in Sources */,
-				08D444F8B27D9982E38EC5FEDA87064D /* HCKeychainCertificateHandler.swift in Sources */,
-				83C1909D892B45B91247A6BFC03C9163 /* HCKeychainHandler.swift in Sources */,
-				B612114004BFEA61339A546E183597A7 /* HCKeychainProperties.swift in Sources */,
-				AF7345A1065E8837246FF3C1D26C0145 /* HCURLSessionLoadCertificate.swift in Sources */,
-				91E8109935CB699CC037BD01B832A0CA /* PasseiHTTPCertificate-dummy.m in Sources */,
+				247D68387DA28B73864E618385EE5F70 /* PasseiSecurity-dummy.m in Sources */,
+				6BAC6E6AE7BD7D658779426DCADDEF96 /* PSCertificateError.swift in Sources */,
+				5CCD08F43D915C9EE628DE0328EBA85D /* PSEncryption.swift in Sources */,
+				1FB3D6953CC893B248797447EA1A8D30 /* PSGenericKeychainError.swift in Sources */,
+				12F41057B46D484C11BAD21DBEBF64E9 /* PSGenericKeychainHandler.swift in Sources */,
+				3ECA7F58E08B68C2AAED89BC159A62B2 /* PSKeychainCertificateHandler.swift in Sources */,
+				9D1C07EB58692803A4E0668DE3B31322 /* PSKeychainFacade.swift in Sources */,
+				E516EEDC17E250A7FEFA239ADF611A28 /* PSKeychainProperties.swift in Sources */,
+				5259ED5E8F35A1FFF3023DE7D1D9F46F /* PSURLSessionLoadCertificate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		77037287F74365E32992F740D6103958 /* Sources */ = {
+		957170979F6186415B8780B9B811B681 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB83AB16312E3DC31A3BEEA277B023E2 /* Constants.swift in Sources */,
-				9DE6E159B529DC0517CC1C8C9D1A0EC1 /* PasseiLogManager-dummy.m in Sources */,
-				D7D41570EF44B18D6BF887AF073DD381 /* PLMLogger.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		89D18569F0050C61BE4AB7B8F5C245A1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CD79A8E9F6A13F4FBB80248ED86E4F97 /* Pods-PasseiHTTPCertificate_Example-dummy.m in Sources */,
+				848BE97222014C2A6F81DACD6819322D /* Pods-PasseiHTTPCertificate_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,37 +526,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F7089609495EB6A0F006BDB2630FB23D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F1AC01FEC16B553EBD2187F817A5D4B /* Constants.swift in Sources */,
+				D5C8F23AFA475FDAB9EB39B9B06ECFA9 /* PasseiLogManager-dummy.m in Sources */,
+				BC2845B1B615E79514F629A4F0A25562 /* PLMLogger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		49626A1EECE36B3C3E4F1C9CDB2E4DE8 /* PBXTargetDependency */ = {
+		192F3DAFBDBB1293C238785DBFB949EA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PasseiLogManager;
 			target = BF22EC7D6FEBF0F538409ED6C888E9CC /* PasseiLogManager */;
-			targetProxy = 90FC45F415A6ECD4EE9094D9F941F6BF /* PBXContainerItemProxy */;
+			targetProxy = 31EDC270CE8421709E43470DD6672F06 /* PBXContainerItemProxy */;
 		};
-		9C6E8191A53A38DB5237916B63095373 /* PBXTargetDependency */ = {
+		6A0E038C6A7ED265C23FC5FD1B0972C2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = PasseiHTTPCertificate;
-			target = 6FB1E487EDE4193B3D38F95159ACFFE6 /* PasseiHTTPCertificate */;
-			targetProxy = CF58703C6C8B582816752088633FA29B /* PBXContainerItemProxy */;
+			name = PasseiLogManager;
+			target = BF22EC7D6FEBF0F538409ED6C888E9CC /* PasseiLogManager */;
+			targetProxy = A965B63F8DC9F25E46F3D0FA65FC6F6D /* PBXContainerItemProxy */;
 		};
-		EAC713E9FFE0731BCAD7B2B20C30C4EC /* PBXTargetDependency */ = {
+		7BD0D9C64A9BEBB383751821F12EC5BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PasseiSecurity;
+			target = FDC99F257068F9D48999520FABDAF468 /* PasseiSecurity */;
+			targetProxy = 0C464BD6B1CACB637237FFB2C33DEB6B /* PBXContainerItemProxy */;
+		};
+		86E8F04F71F8A596A07FF45E00EF1D05 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-PasseiHTTPCertificate_Example";
 			target = 8311A4D258456508C9190C824E73D70A /* Pods-PasseiHTTPCertificate_Example */;
-			targetProxy = AFA205B91E17EF6331F15B7F9E62F5BA /* PBXContainerItemProxy */;
-		};
-		EC7D2AB11C143B74AD67369808CCACFE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PasseiLogManager;
-			target = BF22EC7D6FEBF0F538409ED6C888E9CC /* PasseiLogManager */;
-			targetProxy = A8D70DFA9F853F2CF94575D91169D654 /* PBXContainerItemProxy */;
+			targetProxy = C9CCE000FD4C218AFC058D0F384F42C4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		110336E1498B946623852E8A1C0720C3 /* Debug */ = {
+		0D32F25FD93C23D81EC27FB4BD821A9B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0278E7817B93A8D822451F3B757C4370 /* PasseiLogManager.debug.xcconfig */;
 			buildSettings = {
@@ -620,41 +632,6 @@
 			};
 			name = Debug;
 		};
-		26706A0DD0F1CAB1DE69EB1E5B017DED /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 858EC5782EA2F060742300EF28B97F34 /* Pods-PasseiHTTPCertificate_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PasseiHTTPCertificate_Example/Pods-PasseiHTTPCertificate_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PasseiHTTPCertificate_Example/Pods-PasseiHTTPCertificate_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -717,7 +694,75 @@
 			};
 			name = Release;
 		};
-		7C52E5E657CD7B5B0546F5ADA7509D2C /* Debug */ = {
+		7871081A4F833A6A35C98A50C886DF93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C0A6F95364B5560A3E34D85AE59537A /* PasseiSecurity.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PasseiSecurity/PasseiSecurity-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PasseiSecurity/PasseiSecurity-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PasseiSecurity/PasseiSecurity.modulemap";
+				PRODUCT_MODULE_NAME = PasseiSecurity;
+				PRODUCT_NAME = PasseiSecurity;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		809B87E7AFC61A3BEFFD1879834DC308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 858EC5782EA2F060742300EF28B97F34 /* Pods-PasseiHTTPCertificate_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PasseiHTTPCertificate_Example/Pods-PasseiHTTPCertificate_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PasseiHTTPCertificate_Example/Pods-PasseiHTTPCertificate_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D7700A1628DE6A8C2B2FD9F198666F57 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 04A4084979DBF1541B999AE9B19C98A8 /* Pods-PasseiHTTPCertificate_Example.debug.xcconfig */;
 			buildSettings = {
@@ -751,9 +796,9 @@
 			};
 			name = Debug;
 		};
-		8FEB06555FE9593D7972C0F3ACF34EE0 /* Release */ = {
+		D853995F9063527093CE4DFD35D582BB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BE8F1C46619DA23A75EAC0277B16384 /* PasseiHTTPCertificate.release.xcconfig */;
+			baseConfigurationReference = 170A1EFC85D5A9CD27ACDF1706DEC406 /* PasseiSecurity.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -765,18 +810,50 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PasseiHTTPCertificate/PasseiHTTPCertificate-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PasseiHTTPCertificate/PasseiHTTPCertificate-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/PasseiSecurity/PasseiSecurity-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PasseiSecurity/PasseiSecurity-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PasseiHTTPCertificate/PasseiHTTPCertificate.modulemap";
-				PRODUCT_MODULE_NAME = PasseiHTTPCertificate;
-				PRODUCT_NAME = PasseiHTTPCertificate;
+				MODULEMAP_FILE = "Target Support Files/PasseiSecurity/PasseiSecurity.modulemap";
+				PRODUCT_MODULE_NAME = PasseiSecurity;
+				PRODUCT_NAME = PasseiSecurity;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E59F13C6B331BC9AD10246B41FF2FDCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AC053F9ECAD18C55D69187BD8A2BE3C /* PasseiLogManager.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PasseiLogManager/PasseiLogManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PasseiLogManager/PasseiLogManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PasseiLogManager/PasseiLogManager.modulemap";
+				PRODUCT_MODULE_NAME = PasseiLogManager;
+				PRODUCT_NAME = PasseiLogManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -818,38 +895,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		F300568B8F105FE8654CDB51FD3357BF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8D54898040D6AA2AAD293A44F9D1700 /* PasseiHTTPCertificate.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PasseiHTTPCertificate/PasseiHTTPCertificate-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PasseiHTTPCertificate/PasseiHTTPCertificate-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PasseiHTTPCertificate/PasseiHTTPCertificate.modulemap";
-				PRODUCT_MODULE_NAME = PasseiHTTPCertificate;
-				PRODUCT_NAME = PasseiHTTPCertificate;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 6.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		F4FF6A0D1970CA9705974E3CB2134802 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -917,56 +962,14 @@
 			};
 			name = Debug;
 		};
-		FCE16C68A8D903A9AEA0B3ACB10E2532 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AC053F9ECAD18C55D69187BD8A2BE3C /* PasseiLogManager.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PasseiLogManager/PasseiLogManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PasseiLogManager/PasseiLogManager-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PasseiLogManager/PasseiLogManager.modulemap";
-				PRODUCT_MODULE_NAME = PasseiLogManager;
-				PRODUCT_NAME = PasseiLogManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		15EBF221DFA2854937359B93A3A700F0 /* Build configuration list for PBXNativeTarget "PasseiHTTPCertificate" */ = {
+		2038C6CDDA4BBD2B78647F0BB271DAC6 /* Build configuration list for PBXNativeTarget "PasseiLogManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F300568B8F105FE8654CDB51FD3357BF /* Debug */,
-				8FEB06555FE9593D7972C0F3ACF34EE0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1B36599A3DB978C1780C41A745F0D49E /* Build configuration list for PBXNativeTarget "PasseiLogManager" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				110336E1498B946623852E8A1C0720C3 /* Debug */,
-				FCE16C68A8D903A9AEA0B3ACB10E2532 /* Release */,
+				0D32F25FD93C23D81EC27FB4BD821A9B /* Debug */,
+				E59F13C6B331BC9AD10246B41FF2FDCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -980,11 +983,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8F1C03702A5F7F221DB34E4C57EC8BA9 /* Build configuration list for PBXNativeTarget "Pods-PasseiHTTPCertificate_Example" */ = {
+		911DA4FB34FF28D3BF0613F1F763600F /* Build configuration list for PBXNativeTarget "Pods-PasseiHTTPCertificate_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7C52E5E657CD7B5B0546F5ADA7509D2C /* Debug */,
-				26706A0DD0F1CAB1DE69EB1E5B017DED /* Release */,
+				D7700A1628DE6A8C2B2FD9F198666F57 /* Debug */,
+				809B87E7AFC61A3BEFFD1879834DC308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CB00EDAE11BCA0FA6E7754888500F04 /* Build configuration list for PBXNativeTarget "PasseiSecurity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D853995F9063527093CE4DFD35D582BB /* Debug */,
+				7871081A4F833A6A35C98A50C886DF93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

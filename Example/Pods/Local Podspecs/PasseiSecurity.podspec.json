@@ -1,10 +1,10 @@
 {
-  "name": "PasseiHTTPCertificate",
+  "name": "PasseiSecurity",
   "version": "0.0.1",
-  "summary": "Terminal Executable",
+  "summary": "Security",
   "swift_versions": "6.0",
   "description": "project\nInject certificate PasseiNetworking",
-  "homepage": "https://github.com/ziminny/PasseiHTTPCertificate",
+  "homepage": "https://github.com/ziminny/PasseiSecurity",
   "license": {
     "type": "PASSEI-GROUP",
     "file": "LICENSE"
@@ -13,14 +13,14 @@
     "Vagner Oliveira": "ziminny@gmail.com"
   },
   "source": {
-    "git": "https://github.com/ziminny/PasseiHTTPCertificate.git",
+    "git": "https://github.com/ziminny/PasseiSecurity.git",
     "tag": "0.0.1"
   },
   "platforms": {
     "ios": "16.0",
     "osx": "13.0"
   },
-  "source_files": "PasseiHTTPCertificate/Classes/**/*",
+  "source_files": "PasseiSecurity/Classes/**/*",
   "dependencies": {
     "PasseiLogManager": [
 

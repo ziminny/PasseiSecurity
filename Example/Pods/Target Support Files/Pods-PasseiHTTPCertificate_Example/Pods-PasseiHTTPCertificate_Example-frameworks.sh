@@ -176,12 +176,12 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/PasseiHTTPCertificate/PasseiHTTPCertificate.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PasseiLogManager/PasseiLogManager.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/PasseiSecurity/PasseiSecurity.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/PasseiHTTPCertificate/PasseiHTTPCertificate.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PasseiLogManager/PasseiLogManager.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/PasseiSecurity/PasseiSecurity.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

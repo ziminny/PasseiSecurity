@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double PasseiHTTPCertificateVersionNumber;
-FOUNDATION_EXPORT const unsigned char PasseiHTTPCertificateVersionString[];
+FOUNDATION_EXPORT double PasseiSecurityVersionNumber;
+FOUNDATION_EXPORT const unsigned char PasseiSecurityVersionString[];
 

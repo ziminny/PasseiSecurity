@@ -1,17 +1,17 @@
 PODS:
-  - PasseiHTTPCertificate (0.0.1):
-    - PasseiLogManager
   - PasseiLogManager (0.0.2)
+  - PasseiSecurity (0.0.1):
+    - PasseiLogManager
 
 DEPENDENCIES:
-  - PasseiHTTPCertificate (from `../`)
   - PasseiLogManager (from `https://github.com/ziminny/PasseiLogManager.git`)
+  - PasseiSecurity (from `../`)
 
 EXTERNAL SOURCES:
-  PasseiHTTPCertificate:
-    :path: "../"
   PasseiLogManager:
     :git: https://github.com/ziminny/PasseiLogManager.git
+  PasseiSecurity:
+    :path: "../"
 
 CHECKOUT OPTIONS:
   PasseiLogManager:
@@ -19,9 +19,9 @@ CHECKOUT OPTIONS:
     :git: https://github.com/ziminny/PasseiLogManager.git
 
 SPEC CHECKSUMS:
-  PasseiHTTPCertificate: 3c0ea57a1c3ce4615479648a9bce752a9b49cc78
   PasseiLogManager: e15ba80a31b3b56ccab8a62f7f3c77ffe86ed353
+  PasseiSecurity: 03f01c61aea395a5007f9a96804fb9d0ddec087c
 
-PODFILE CHECKSUM: 424c5b22bdffb38328329554e7ea59cc0c809330
+PODFILE CHECKSUM: 23f6a4daee466420f46c7dd73216b2f65467da4d
 
 COCOAPODS: 1.15.2

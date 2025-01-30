@@ -8,7 +8,7 @@ target 'PasseiHTTPCertificate_Example' do
   #pod 'PasseiLogManager', :path => '../../PasseiLogManager'
   
   pod 'PasseiLogManager', :git => 'https://github.com/ziminny/PasseiLogManager.git'
-  pod 'PasseiHTTPCertificate', :path => '../'
+  pod 'PasseiSecurity', :path => '../'
 
   target 'PasseiHTTPCertificate_Tests' do
     inherit! :search_paths

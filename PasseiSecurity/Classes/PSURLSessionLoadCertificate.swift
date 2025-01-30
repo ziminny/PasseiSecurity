@@ -25,7 +25,7 @@ public struct PSURLSessionLoadCertificate: Sendable {
     ///   - completionHandler: O manipulador de conclusão que determina a disposição do desafio e a credencial fornecida.
     /// - Throws: `PSError.itemNotFound` se o certificado não for encontrado no Keychain.
     public func urlSession(_: URLSession, didReceive challenge: URLAuthenticationChallenge, completionHandler: @escaping (URLSession.AuthChallengeDisposition, URLCredential?) -> Void) throws {
-        
+       
         // Verifica se o método de autenticação é de certificado de cliente.
         guard challenge.protectionSpace.authenticationMethod == NSURLAuthenticationMethodClientCertificate else {
             completionHandler(.performDefaultHandling, nil)

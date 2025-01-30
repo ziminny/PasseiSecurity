@@ -279,13 +279,13 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-PasseiHTTPCertificate_Example/Pods-PasseiHTTPCertificate_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/PasseiHTTPCertificate/PasseiHTTPCertificate.framework",
 				"${BUILT_PRODUCTS_DIR}/PasseiLogManager/PasseiLogManager.framework",
+				"${BUILT_PRODUCTS_DIR}/PasseiSecurity/PasseiSecurity.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PasseiHTTPCertificate.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PasseiLogManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PasseiSecurity.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
